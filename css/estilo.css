@@ -1,9 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
+@import url('https://fonts.googleapis.com/css?family=Monoton|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Monoton|Montserrat|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Monoton|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Monoton|Poiret+One|Raleway');
 *{
     padding: 0;
     margin: 0;
 }
+
+header > div > h1{
+    font-size:100px;
+    color: white;
+    font-family: 'Monoton', cursive;
+}
+.title > p{
+    color: white;
+    font-family: 'Monoton', cursive;
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+}
+.title{
+    text-align: center;
+    margin-top: 20em;
+}
+.asfaltoc{
+    width: 100%;
+    height: 75px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(226, 179, 25, 0.979);
+    margin-top: 1em;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Monoton', cursive;
+    font-family: 'Poiret One', cursive;
+    font-size: 1em;
+}
+
 .logo{
     width: 40px;
     
@@ -14,6 +47,7 @@ header{
     height: 100vh;
     background-size: cover;
 }
+
 nav > ul > a{
     text-decoration: none;
     padding-right: 50px;
@@ -27,4 +61,53 @@ nav{
    padding: 2em;
 
 }
+.inforgrid{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2em;
+    background-color: #fff;
+}
+.inforgrid > article{
+    border: 2px;
+
+}
+
+.gridf{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inforgrid > article{
+    padding: 2em;
+    text-align: initial;
+    font-family: 'Monoton', cursive;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+.inforgrid > article > .img1{
+   height: 10em;
+   border-radius: 12px;
+}
+.inforgrid > article > .img2{
+    height: 10em;
+    border-radius: 12px;
+ }
+ .inforgrid > article > .img3{
+    height: 10em;
+    border-radius: 12px;
+ }
+ .inforgrid > article > .img4{
+    height: 10em;
+    border-radius: 12px;
+ }
+ .inforgrid > article > .img5{
+    height: 10em;
+    border-radius: 12px;
+ }
+ .inforgrid > article > .img6{
+    height: 10em;
+    border-radius: 12px;
+ }
+
 
